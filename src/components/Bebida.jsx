@@ -21,7 +21,7 @@ const Bebida = ({bebida}) => {
                   className="w-100 text-uppercase mt-2"
                   onClick={() => {
                     handleModalClick()
-                    handleBebidaClick()
+                    handleBebidaClick(bebida.idDrink)
                   }}
                 >
                     Ver Receta
